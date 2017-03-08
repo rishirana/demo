@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="info.rishi.bank.AdminInside"
+    tools:showIn="@layout/activity_admin_inside"
+    android:background="@drawable/d">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/linearLayout"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:layout_width="161dp"
+            android:layout_height="84dp"
+            android:text="new account"
+            android:id="@+id/b1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_columnSpan="6"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="100dp"
+            android:onClick="newaccount"
+            android:background="#67deeb"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="85dp"
+            android:text="show"
+            android:id="@+id/b5"
+            android:layout_row="0"
+            android:layout_column="7"
+            android:onClick="show"
+            android:layout_marginTop="100dp"
+            android:background="#71afec"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:layout_marginBottom="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_marginBottom="190dp"
+        android:layout_marginTop="180dp">
+
+        <Button
+                android:layout_width="163dp"
+                android:layout_height="85dp"
+                android:text="edit account"
+                android:id="@+id/b8"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:onClick="editacou"
+            android:background="#d9aaea"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="161dp"
+            android:layout_height="85dp"
+            android:text="delete account"
+            android:id="@+id/b9"
+            android:layout_row="2"
+            android:layout_column="7"
+            android:onClick="delete"
+            android:background="#c9ace5"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WelCome"
+        android:id="@+id/textView15"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginLeft="90dp" />
+</RelativeLayout>

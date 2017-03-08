@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.rishi.bank">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Adminlogin"
+            android:label="@string/title_activity_adminlogin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewAdmin"
+            android:label="@string/title_activity_new_admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminInside"
+            android:label="@string/title_activity_admin_inside"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserLogin"
+            android:label="@string/title_activity_user_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserApplication"
+            android:label="@string/title_activity_user_application"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_create_new"
+            android:label="@string/title_activity_admin_create_new"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DeleteAccount"
+            android:label="@string/title_activity_delete_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User_deposit"
+            android:label="@string/title_activity_user_deposit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Withdrawal"
+            android:label="@string/title_activity_withdrawal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".userInside"
+            android:label="@string/title_activity_user_inside"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user_edit_new"
+            android:label="@string/title_activity_user_edit_new"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".option_menu"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".admin_edit_new"
+            android:label="@string/title_activity_admin_edit_new"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mini_transc"
+            android:label="@string/title_activity_mini_transc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Admin_edit_changes"
+            android:label="@string/title_activity_admin_edit_changes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Money_transfer"
+            android:label="@string/title_activity_money_transfer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminShow"
+            android:label="@string/title_activity_admin_show"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

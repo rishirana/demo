@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "1038128232695",
+    "firebase_url": "https://bank-b10dc.firebaseio.com",
+    "project_id": "bank-b10dc",
+    "storage_bucket": "bank-b10dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038128232695:android:f4f0dc785053a418",
+        "android_client_info": {
+          "package_name": "info.rishi.bank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038128232695-qnq16bvdfdcbvv2vhhm2h6ne9rle8hvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkpA-yGQ6npwtKCZAOSj3hJWqhI0gMhNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038128232695:android:733e50681aa0a040",
+        "android_client_info": {
+          "package_name": "info.rishi.bank2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038128232695-qnq16bvdfdcbvv2vhhm2h6ne9rle8hvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkpA-yGQ6npwtKCZAOSj3hJWqhI0gMhNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

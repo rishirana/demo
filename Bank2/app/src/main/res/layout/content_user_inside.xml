@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="info.rishi.bank.userInside"
+    tools:showIn="@layout/activity_user_inside"
+    android:background="@drawable/d">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="deposit"
+        android:id="@+id/deposit"
+        android:onClick="deposit"
+        android:layout_below="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:background="#7eb2e0"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="withdrawal"
+        android:id="@+id/withd"
+        android:onClick="withdraw"
+        android:layout_below="@+id/deposit"
+        android:layout_centerHorizontal="true"
+        android:background="#edb0b0"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="money transfer"
+        android:id="@+id/money"
+        android:layout_below="@+id/withd"
+        android:layout_alignRight="@+id/mini"
+        android:layout_alignEnd="@+id/mini"
+        android:background="#ccecb7"
+        android:onClick="transfer"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="edit detail"
+        android:id="@+id/edit"
+        android:onClick="edit"
+        android:layout_below="@+id/money"
+        android:layout_above="@+id/show"
+        android:layout_alignRight="@+id/show"
+        android:layout_alignEnd="@+id/show"
+        android:layout_marginBottom="10dp"
+        android:background="#f6c4fa" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="mini-transaction"
+        android:id="@+id/mini"
+        android:onClick="mini"
+        android:background="#bfdaf2"
+        android:layout_above="@+id/back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:id="@+id/back"
+        android:onClick="bck"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp"
+        android:background="#28948686"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="show detail"
+        android:id="@+id/show"
+        android:layout_above="@+id/mini"
+        android:layout_marginBottom="10dp"
+        android:background="#b68060" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WelCome"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#5d5dc2"
+        android:textSize="32dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginBottom="25dp" />
+</RelativeLayout>
